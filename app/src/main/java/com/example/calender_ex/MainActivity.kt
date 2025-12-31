@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.calender_ex.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
+//1번 테스트
     private lateinit var binding: ActivityMainBinding
     private lateinit var calendarViewModel: CalendarViewModel
     private lateinit var eventAdapter: EventAdapter
