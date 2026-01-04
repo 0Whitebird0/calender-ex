@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/calendarDayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"
+        tools:text="24" />
+
+    <TextView
+        android:id="@+id/eventTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="10sp"
+        android:background="@drawable/event_background"
+        android:textColor="@android:color/white"
+        android:padding="2dp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        tools:text="팀 회의" />
+    <TextView
+        android:id="@+id/eventTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="10sp"
+        android:background="@drawable/event_background"
+        android:textColor="@android:color/white"
+        android:padding="2dp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        tools:text="팀 회의" />
+    <TextView
+        android:id="@+id/eventTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="10sp"
+        android:background="@drawable/event_background"
+        android:textColor="@android:color/white"
+        android:padding="2dp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        tools:text="팀 회의" />
+
+</LinearLayout>
